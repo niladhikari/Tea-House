@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="cupcake">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
-
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <!-- daisy Ui link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- for customize the design -->
     <script>
@@ -23,12 +32,49 @@
             }
         }
     </script>
+
+    <!-- costom style -->
+    <style>
+        .font {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    <header class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
-        
+    <header class="max-w-[1300px] mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 font">
+        <div class="hero text-center lg:text-left">
+            <div class="hero-content flex-col lg:flex-row">
+                <div class="">
+                    <h1 class="text-[40px] md:text-[55px] lg:text-[70px] font-extrabold text-[#1C1C1C]">It's good <br>
+                        tea time at The Tea House</h1>
+                    <p class="py-6 text-sm text-[#777] font-medium max-w-lg">Tea and Botanical Solutions Supplier Give
+                        Optimum
+                        Satisfaction To Your Taste Buds.</p>
+                    <button class="btn text-sm font-bold bg-[#FF8938] mb-10">Explore More <i
+                            class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+                <div class="">
+                    <img src="./images/banner.png" class="" />
+                    <div class="flex items-center max-w-[255px] gap-3 p-5 drop-shadow-lg bg-white -mt-16">
+                        <div>
+                            <i class="fa-solid fa-star text-yellow-400 text-5xl"></i>
+                        </div>
+                        <div class="">
+                            <h3 class="text-3xl font-extrabold text-[#1C1C1C]">5.00</h3>
+                            <p class="text-base font-semibold text-[#777]">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
+
+    <main>
+        <section>
+            
+        </section>
+    </main>
 </body>
 
 </html>
